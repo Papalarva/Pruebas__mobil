@@ -1,0 +1,58 @@
+/*==============================
+=          RESPONSIVO          =
+==============================*/
+
+/* Tablets en horizonal y escritorios normales */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    :root {
+        font-size: 14px;
+    }
+    .educacion__titulo {
+        font-size     : 2em;
+    }
+    .educacion__subtitulo {
+        font-size     : 1.5em;
+    }
+}
+
+/* Móviles en horizontal o tablets en vertical */
+@media (max-width: 767px) { 
+    :root {
+        font-size: 12px;
+    }
+    .educacion {
+        display: block;
+        height: auto;
+    }
+    .educacion__imagen {
+		width: 100%;
+	}
+    .educacion__img {
+        width: 100%;
+        float: none;
+    }
+	.educacion__texto {
+		width  : 100%;
+    	height: 100vw; 
+	}
+    .educacion__titulo {
+        font-size     : 2em;
+    }
+    .educacion__subtitulo {
+        font-size     : 1.5em;
+    }
+	.educacion__elemento::before{
+		height     : 4vw;
+		width      : 4vw;
+		line-height: 2vw;
+		margin-top   : -2.3vw;
+	}
+	.educacion__elemento  {
+		padding: .4vw .4vw .4vw 6vw;
+	}
+}
+
+/* Móviles en vertical */
+@media (max-width: 480px) { 
+    
+}
