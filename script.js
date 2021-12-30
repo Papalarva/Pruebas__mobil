@@ -104,10 +104,12 @@ var menu__ocultar = document.querySelector(".movil__cerrar");
 $('#menu__movil').hide(0);
 function show__menu() {
     var menu__movil = document.querySelector(".menu__movil");
+    var body = document.querySelector(".body");
 
     if ((menu__movil.style.display = "none")) {
         $('#menu__movil').fadeIn(500);
         $('#menu__movil').show(0);
+        body.style.overflow = "hidden";
     }
 }
 function hide__menu() {
