@@ -114,9 +114,11 @@ function show__menu() {
 }
 function hide__menu() {
     var menu__movil = document.querySelector(".menu__movil");
-
+    var body = document.querySelector(".body");
+    
     if ((menu__movil.style.display = "flex")) {
         $('#menu__movil').fadeOut(500);
+        body.style.overflow = "auto";
     }
 }
 menu__mostrar.addEventListener("click", show__menu);
