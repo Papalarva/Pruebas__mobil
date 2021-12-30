@@ -79,7 +79,7 @@ function menu__scroll() {
     } else {
         $('#aviso').show(0);
         $(window).resize(function () {
-            if ($(window).width() >= 680) {
+            if ($(window).width() > 680) {
                 $('#aviso').hide(0);
                 $('menu__movil').hide(0);
                 $(window).scroll(function(){
