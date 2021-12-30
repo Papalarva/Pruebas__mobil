@@ -1,0 +1,70 @@
+/*==============================
+=          RESPONSIVO          =
+==============================*/
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .splide{
+        padding: 0!important;
+        width: 100%;
+    }
+    .slider{
+        padding: 0;
+    }
+    
+    .splide__slide{
+        width: 100%;
+        height: auto;
+    }
+    .splide__slide img{
+        border-radius: 0;
+    }
+}
+@media screen and (min-width: 901px) {.destacado__elementos {flex-wrap: nowrap;}}
+@media screen and (max-width: 900px) {
+    .destacado__slider{
+        width: 45%!important;
+    }
+    .destacado__slider{
+        width: 45%!important;
+        height: 45vw;
+        margin: 10px auto;
+    }
+    .destacado__seccion {
+        width: 45%;
+        height: 45vw;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 767px) {
+    .slider{
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    .destacado {
+        padding: 0;
+    }
+    .destacado__titulo {
+        margin: 40px 0 ;
+    }
+    .destacado__slider{
+        width: 45%!important;
+        height: 45vw;
+        margin: 10px auto;
+    }
+    .destacado__seccion {
+        width: 45%;
+        height: 45vw;
+        margin: 10px auto;
+    }
+    .texto__movil {
+        margin: 0;
+    }
+    .bx__movil {
+        margin: 0 5px;
+        box-shadow: none;
+    }
+    
+}
+
+/*=====  End of RESPONSIVO  ======*/

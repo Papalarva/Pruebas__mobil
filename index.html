@@ -4,172 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CBTIS 128</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js" type="text/javascript"></script>
-    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/themes/splide-sea-green.min.css">
 </head>
-<body class="body">
-    <!-- PRELOADER -->
-    <div class="loader">
-        <div class="loader__onda">
-            <div class="loader__halo"></div>
-            <div class="loader__halo"></div>
-        </div>
-    </div>
-    <!-- HEADER -->
-    <header class="header">
-        <div id="header__contenedor" class="header__contenedor animate__animated animate__fadeInLeft animate__delay-3s">
-            <h1 class="header__titulo">CBTIS 128</h1>
-            <p class="header__frase">"Alcancemos el mañana con nuestra propia tecnología"</p>
-            <nav>
-                <ul class="menu__enlaces">
-                    <li class="menu__lista"><a href="" class="menu__link">Nosotros</a></li>
-                    <li class="menu__lista"><a href="" class="menu__link">Departamentos</a></li>
-                    <li class="menu__lista"><a href="" class="menu__link">Alumnos</a></li>
-                    <li class="menu__lista"><a href="" class="menu__link">Transparencia</a></li>
-                    <li class="menu__lista"><a href="" class="menu__link">Concursos</a></li>
-                    <li class="menu__lista"><a href="" class="menu__link">Directorio</a></li>
-                    <li class="menu__lista"><a href="" class="menu__link">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="header__redes">
-                <a href="https://www.facebook.com/Casa-de-los-Jaguares-CBTIS-128-101239285643821" target="_blank"><i class="bx bxl-facebook-circle header__red"></i></a>
-                <a href="https://www.youtube.com/channel/UCBuXio9_FP2pdABkHykR67Q" target="_blank"><i class="bx bxl-youtube header__red"></i></a>
-            </div>
-        </div>
-        <button class="video__mostrar">
-            <i class="bx bxs-movie-play"></i>
-        </button>
-    </header>
-    <!-- VIDEO -->
-    <div class="video__contenedor">
-        <video class="video" controls="">
-            <source
-                src="https://www.cbtis128.edu.mx/video/CBTis 128 2021.mp4"
-                type="video/mp4"
-                codecs="avc1,mp4a"/>
-            <source
-                src="https://www.cbtis128.edu.mx/video/CBTis 128 2021.ogv"
-                type="video/ogg"
-                codecs="theora,vorbis"/>
-            <source
-                src="https://www.cbtis128.edu.mx/video/CBTis 128 2021.webm"
-                type="video/webm"
-                codecs="vp8,vorbis"/>
-                Tu navegador no soporta los vídeos de HTML5
-        </video>
-        <button class="video__ocultar">
-            <i class="bx bx-x video__cerrar"></i>
-        </button>
-    </div>
-    <!-- NAV -->
-    <nav id="aviso" class="header__menu">
-        <div class="menu__contenedor">
-            <div class="menu__logo">
-                <img class="menu__img" src="logo.png" alt="Logo del CBTIS 128">
-                <p class="menu__texto">CBTIS 128</p>
-            </div>
-            <div class="menu__enlace">
-                <a href="" class="menu__pagina">Nosotros</a>
-                <a href="" class="menu__pagina">Departamentos</a>
-                <a href="" class="menu__pagina">Alumnos</a>
-                <a href="" class="menu__pagina pagina__oculta">Transparencia</a>
-                <a href="" class="menu__pagina pagina__oculta">Concursos</a>
-                <a href="" class="menu__pagina pagina__oculta">Directorio</a>
-                <a href="" class="menu__pagina pagina__oculta">Contacto</a>
-                <!-- start menu desplegable -->
-                <div class="dropdown">
-                    <button class="menu__semestres menu__oculto">Ver más</button>
-                    <div class="dropmenu">
-                        <a class="menu__pagina " href="#">transparencia</a>
-                        <a class="menu__pagina " href="#">concursos</a>
-                        <a class="menu__pagina " href="#">departamentos</a>
-                        <a class="menu__pagina " href="#">directorio</a>
+<body>
+    <div class="destacado">
+        <div class="destacado__elementos">
+            <div class="destacado__slider">
+                <div id="image-slider" class="vertical-splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <a target="_blank" href="http://registro.desarrolloprofesionaldocente.sems.gob.mx/">
+                                <img src="images/novedades1.jpg" href=""/>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a target="_blank" href="https://formacionycapacitaciondigitales.televisioneducativa.gob.mx/" >
+                                    <img src="images/novedades2.jpg"/>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a target="_blank" href="https://www.decidetusestudios.sep.gob.mx/" >
+                                    <img src="images/novedades3.jpg"/>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a target="_blank" href="https://bnj92cbtfulffq7-academydb1.adb.us-ashburn-1.oraclecloudapps.com/ords/f?p=1000:">
+                                    <img src="images/novedades4.jpg"/>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a target="_blank" href="https://www.webex.com/es/index.html">
+                                    <img src="images/novedades5.jpg"/>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a target="_blank" href="https://prepaenlinea.sep.gob.mx/">
+                                    <img src="images/novedades6.jpg"/>
+                                </a>
+                            </li>
+                            <li class="splide__slide">
+                                <a target="_blank" href="https://www.tuprepaenvideos.sep.gob.mx/">
+                                    <img src="images/novedades7.jpg"/>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="dropdown">
-                    <button class="menu__semestres">Semestres</button>
-                    <div class="dropmenu">
-                        <a href="#" class="menu__pagina">2do Semestre</a>
-                        <a href="#" class="menu__pagina">4to Semestre</a>
-                        <a href="#" class="menu__pagina">6to Semestre</a>
-                    </div>
-                </div>
-                <!-- end menu desplegable -->
             </div>
-            <button class="menu__boton">
-                <i class="bx bx-menu bx-lg menu__icono"></i>
-            </button>
+            <div class="destacado__seccion">
+                <a target="_blank" href="https://cbtis128.edu.mx/plataforma/moodle/">
+                    <i class="bx bxs-graduation destacado__icon"></i>
+                </a>
+                <p class="seccion__texto">Moodle</p>
+            </div>
+            <div class="destacado__seccion">
+                <a target="_blank" href="http://construyet.sep.gob.mx/">
+                    <i class="bx bxs-brain destacado__icon"></i>
+                </a>
+                <p class="seccion__texto">ConstruyeT</p>
+            </div>
+            <div class="destacado__seccion destacado__anuncio">
+                <div class="destacado__division">
+                    <a target="_blank" href="http://jovenesencasa.sep.gob.mx/">
+                        <i class="bx bxs-book-reader destacado__icon bx__movil"></i>
+                    </a>
+                    <p class="seccion__texto texto__movil">Jovenes en casa</p>
+                </div>
+                <div class="destacado__division">
+                    <a target="_blank" href="https://www.cbtis128.edu.mx/descargas/Boletin%20SEP%20no.82.pdf">
+                        <i class="bx bx-clipboard destacado__icon bx__movil"></i>
+                    </a>
+                    <p class="seccion__texto texto__movil">Maestros en casa</p>
+                </div>
+            </div>
         </div>
-    </nav>
-    <main id="contenido2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci deserunt provident dolor omnis eius, veniam a nesciunt minus voluptas accusamus cumque earum dolores expedita reiciendis qui dolorum cum recusandae repudiandae!
-        Deserunt quisquam pariatur dolor. Soluta est adipisci itaque earum reiciendis quo doloremque voluptatibus necessitatibus distinctio cumque et expedita accusantium maxime, dolor laudantium consectetur delectus explicabo animi placeat minima esse illum?
-        Praesentium, repellat? Quibusdam numquam at recusandae qui consectetur reprehenderit laborum ipsum cum culpa velit repudiandae molestias in explicabo, dolor fugit ipsa repellat inventore pariatur odio temporibus necessitatibus voluptas. Consequatur, quia.
-        Incidunt quisquam voluptatem molestiae voluptatibus doloribus perspiciatis animi hic? Quo voluptatem porro ad cumque autem quis, nisi odit deleniti sit animi enim placeat! Quis perspiciatis incidunt explicabo officiis quaerat impedit.
-        Necessitatibus accusantium asperiores nobis omnis, tenetur neque veniam facere dolore fugit expedita voluptates illum ducimus, perferendis aspernatur adipisci ullam harum! Voluptatem modi tempora odit, inventore molestias consequatur. Praesentium, delectus cupiditate?
-        Accusantium ea natus, laudantium perspiciatis cumque nihil harum ipsum? Alias esse facere voluptatibus sequi architecto quam? Veritatis esse exercitationem cupiditate ad aliquid nihil temporibus dolor repellendus magnam quisquam. Corporis, obcaecati.
-        Minus enim eveniet voluptates architecto alias laudantium dolorum, molestiae illum optio? Ex numquam dignissimos hic aliquam dolorum ratione, necessitatibus inventore tempora pariatur impedit asperiores dicta quas accusamus, fuga laborum! Eveniet!
-        Explicabo eveniet iusto atque itaque nam amet ipsa tempora perspiciatis, porro ducimus eligendi ut, harum ipsum, veritatis laborum ratione modi doloremque inventore animi quas necessitatibus! Ullam odit quasi qui possimus.
-        Repudiandae temporibus ducimus architecto consequatur, inventore, rerum officiis eius ex exercitationem dicta voluptates dolore nam rem illo mollitia reprehenderit officia suscipit! Reprehenderit mollitia consequatur consequuntur quod ut rem illum accusantium!
-        Recusandae temporibus consequuntur cumque quia architecto tenetur dolor magnam? Quos qui at voluptate, delectus, animi inventore consequuntur a natus incidunt perspiciatis odio optio officia quas accusamus accusantium architecto iure ipsam.
-        Maiores nulla earum quidem expedita neque similique molestias ratione sit vero temporibus? Reiciendis similique aliquam quasi soluta asperiores porro laborum sunt maiores eaque fuga voluptates blanditiis placeat mollitia, cupiditate odit?
-        Repudiandae aperiam at repellat dolores sequi quibusdam adipisci voluptatibus obcaecati atque eveniet, porro totam esse assumenda sed ipsa tempora voluptas minima vel nostrum saepe! Mollitia ipsum aliquid odio blanditiis error.
-        Placeat, dolores quam officia maiores neque dolorem, nesciunt, eaque id non cupiditate harum sit ipsa modi tempora! Laborum quia commodi voluptatum vero tempora. Sit distinctio quis qui, mollitia ut aspernatur.
-        Tenetur amet impedit porro aliquam eveniet culpa reprehenderit? Animi perspiciatis saepe eligendi voluptate tempora, non ex nihil consequuntur in illum placeat repellendus architecto ratione dolore accusantium necessitatibus velit enim voluptatum.
-        Cum, nesciunt aspernatur. Porro ducimus rem, voluptatum reiciendis quisquam ut possimus itaque dolorem officiis nobis dolorum debitis ea enim ipsa dolor, iusto excepturi nostrum similique deleniti? Totam nihil nesciunt sed.
-        Unde vero eligendi eius itaque impedit! Rem modi veritatis eius laboriosam expedita quis excepturi eos, consectetur qui autem est libero pariatur officiis accusantium. Maiores facere assumenda ea quibusdam odit rem?
-        Corporis possimus culpa ducimus repudiandae pariatur mollitia magnam ut. Quam minus exercitationem explicabo! Exercitationem mollitia sequi quia placeat dignissimos iste sed, laboriosam assumenda maxime voluptates excepturi quae asperiores eveniet aliquid.
-        Necessitatibus sed quisquam, ipsam vel itaque, saepe architecto sint minus atque repellendus nobis! Tempore ipsam tenetur nihil obcaecati! Deserunt libero nesciunt nihil distinctio et dolorem neque amet magni sequi explicabo.
-        Quos reprehenderit aliquid magni, dicta eum iure hic itaque. Dicta in voluptate voluptates libero quam recusandae vitae minus magnam. Voluptate eius quia necessitatibus itaque adipisci minus minima tempora aut quod.
-        Maiores quas odio veritatis minus perspiciatis veniam dolore quasi eaque iusto quaerat, rem fuga quidem ipsam quos molestiae ratione, excepturi, numquam nemo. Consequatur vero soluta rerum fugit vel expedita maxime!
-        Dolorum possimus minima assumenda, quos eligendi corrupti. Corrupti corporis, cupiditate, aperiam deleniti tenetur pariatur laborum amet voluptatibus sapiente, nobis totam. Alias ex unde corrupti quaerat sed tempora deleniti, repellat modi.
-        Voluptates autem qui pariatur excepturi odio vitae ex inventore, nam reiciendis repellendus repudiandae labore consequatur tenetur, placeat officiis nobis eum sequi illo, laudantium corrupti! Fugit voluptatum velit eaque asperiores delectus?
-        Inventore nihil recusandae modi, quia ullam id aspernatur, est reprehenderit ut voluptate cupiditate repellendus distinctio illo nemo hic magnam eius natus facere. Qui architecto optio quasi repellat nihil, ut minus.
-        Repellat eaque nam saepe commodi, eum expedita exercitationem animi natus quia enim velit cupiditate odio optio eos sit. Maxime, rem. Exercitationem temporibus eos laboriosam deserunt vero necessitatibus porro, fugit consequatur!
-        Nostrum est atque repellat, eos tempore perspiciatis rem reprehenderit ea libero illo! Nesciunt temporibus, voluptates blanditiis consequatur debitis pariatur! Eos numquam qui nihil quis rerum tempore quod corporis asperiores omnis.
-        Dicta vel suscipit, natus iure impedit molestias necessitatibus rem laudantium deleniti pariatur placeat earum iusto esse amet dolore tenetur quaerat adipisci reprehenderit unde, optio nobis veniam hic dolores! Minima, dolore!
-        Voluptates molestias voluptatum quasi eius. Reprehenderit sed sequi velit, distinctio fuga quibusdam tempore? Tenetur vero aliquam, porro commodi laudantium ex, fuga ea debitis quia placeat, reprehenderit sapiente. Facere, facilis praesentium?
-        Neque obcaecati, nesciunt fugit reiciendis consequuntur culpa voluptatibus. Laboriosam doloribus labore omnis sit accusantium sint assumenda dolor, ab nam praesentium cumque suscipit ex, magni quia reprehenderit. Molestias, ut laborum? Ut.
-        Hic facilis, a porro error nesciunt omnis sapiente harum dolor distinctio quia sunt fugit deserunt saepe assumenda laboriosam ex ullam ratione? Reprehenderit excepturi facilis necessitatibus explicabo id odio ad quaerat?
-        Officia voluptatibus libero aliquam aliquid sit molestiae autem dolore cupiditate laborum quisquam voluptatem, tempore labore vitae incidunt ex, porro assumenda quod iusto rerum. Architecto molestiae, cumque amet magni nihil exercitationem.
-        Sequi ad quia aperiam saepe magni obcaecati, tenetur provident eos totam libero similique natus, architecto neque asperiores placeat cum repellat inventore? Atque dicta quos repudiandae quaerat illum at perspiciatis doloremque.
-        Nihil nulla alias, minus tempora, neque obcaecati ex ullam itaque laudantium consequuntur quae ad reiciendis dolorum temporibus cupiditate sed voluptate ratione eveniet eum nemo veritatis ducimus quam! Explicabo, nobis dolor.
-        Sequi veniam earum odit! Minima perferendis a aperiam eos, ipsa, atque porro sint vitae soluta id quas saepe. Delectus veritatis ratione inventore iste obcaecati laborum quam placeat qui mollitia corporis?
-        Consectetur dolores reprehenderit quas repellendus, dicta autem commodi itaque quidem quam. Ad distinctio, doloribus, nulla corporis et natus fugiat commodi, optio accusantium recusandae beatae dolores voluptatibus hic nihil ea sapiente!
-        Perferendis dolore reprehenderit corrupti dolorem quod exercitationem debitis quia consequatur! Quae assumenda similique laboriosam. Fuga culpa accusamus nostrum natus modi recusandae animi quibusdam minima ab libero fugit, debitis architecto aut.
-        Optio natus facere non exercitationem. Fuga corporis vitae tempore laudantium accusantium doloremque tenetur molestiae quam esse! Blanditiis dolorum, asperiores consequatur architecto distinctio aliquid vero iure nobis provident vel quas porro!
-        Iure suscipit voluptates consequuntur aliquid enim nesciunt adipisci, ipsum ipsam earum, tempora ipsa aliquam facilis similique quis, rerum dolorem at laborum illum blanditiis eius cupiditate obcaecati maiores? Nobis, architecto laudantium!
-        Dignissimos eius totam ducimus ipsa adipisci. Nemo veniam voluptatem recusandae saepe! Cum, laborum. Ea, aliquid! Voluptatibus rem, expedita quaerat eius nisi labore nihil aliquam, corporis facilis ad quae. Perferendis, deserunt.
-        Cum explicabo ad illum nostrum molestiae consequatur quidem est? Ullam, eum recusandae odio culpa tempora voluptatem autem earum laboriosam nisi fuga dignissimos, itaque consequatur voluptas qui! Non ullam quidem molestias!
-        Eius quisquam recusandae ad nam! Repellat modi, aliquid natus libero, tenetur magnam quaerat officia enim quidem at sunt eius fugit facere rem. Esse, harum rem distinctio aperiam cupiditate ex necessitatibus.
-    </main>
-    <!-- MENU MOVIL -->
-    <nav id="menu__movil" class="menu__movil">
-        <header class="movil__cabecera">
-            <button class="movil__cerrar">
-                <i class='bx bx-x bx-lg movil__close'></i>
-            </button>
-            <div class="dropdown__movil">
-                <button class="menu__semestres movil__enlace">Semestres</button>
-                <div class="dropmenu__movil">
-                    <a href="#" class="menu__pagina">2do Semestre</a>
-                    <a href="#" class="menu__pagina">4to Semestre</a>
-                    <a href="#" class="menu__pagina">6to Semestre</a>
-                </div>
-            </div>
-        </header>
-        <a class="movil__enlace" href="#">Inicio</a>
-        <a class="movil__enlace" href="#">Alumnos</a>
-        <a class="movil__enlace" href="#">Concursos</a>
-        <a class="movil__enlace" href="#">Departamentos</a>
-        <a class="movil__enlace" href="#">Directorio</a>
-        <a class="movil__enlace" href="#">Transparencia</a>
-        <a class="movil__enlace" href="#">Nosotros</a>
-        <a class="movil__enlace" href="#">Contacto</a>
-    </nav>
+    </div>
 </body>
-<script src="script.js"></script>
+<script src="scripts/script.js"></script>
 </html>
