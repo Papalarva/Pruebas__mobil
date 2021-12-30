@@ -302,7 +302,7 @@
     background-color: var(--rosa);
     height: 100vh;
     display: flex;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     flex-direction: column;
